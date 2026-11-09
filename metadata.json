@@ -1,0 +1,6 @@
+{
+  "name": "ChatRoulette P2P Global",
+  "description": "Plataforma web em tempo real estilo Chatroulette com WebRTC P2P global, chamadas diretas estilo telefone por código exclusivo e painel administrativo completo.",
+  "requestFramePermissions": ["camera", "microphone", "display-capture"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

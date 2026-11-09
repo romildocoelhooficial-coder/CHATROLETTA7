@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": "user_admin_001",
+      "unique_code": "#CR-000001",
+      "username": "Administrador Master",
+      "email": "admin@chatroulette.com",
+      "role": "admin",
+      "status": "online",
+      "country": "Brasil 🇧🇷",
+      "gender": "unspecified",
+      "bio": "Administrador global do ChatRoulette P2P.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-09-18T23:47:05.831Z",
+      "password_hash": "admin123"
+    },
+    {
+      "id": "user_002",
+      "unique_code": "#CR-849201",
+      "username": "Lucas Silva",
+      "email": "lucas@exemplo.com",
+      "role": "user",
+      "status": "online",
+      "country": "Brasil 🇧🇷",
+      "gender": "male",
+      "bio": "Adoro conversar sobre tecnologia, música e games!",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-03T23:47:05.831Z",
+      "password_hash": "user123"
+    },
+    {
+      "id": "user_003",
+      "unique_code": "#CR-193852",
+      "username": "Sofia Martinez",
+      "email": "sofia@exemplo.com",
+      "role": "user",
+      "status": "online",
+      "country": "Portugal 🇵🇹",
+      "gender": "female",
+      "bio": "Estudante de design e fotografia. Curto conhecer pessoas do mundo.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-08T23:47:05.831Z",
+      "password_hash": "user123"
+    },
+    {
+      "id": "user_004",
+      "unique_code": "#CR-648291",
+      "username": "Alex Morgan",
+      "email": "alex@exemplo.com",
+      "role": "user",
+      "status": "offline",
+      "country": "Estados Unidos 🇺🇸",
+      "gender": "male",
+      "bio": "Musician & traveler. Say hi from anywhere!",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-11T23:47:05.831Z",
+      "password_hash": "user123"
+    },
+    {
+      "id": "user_005",
+      "unique_code": "#CR-552910",
+      "username": "Clara Costa",
+      "email": "clara@exemplo.com",
+      "role": "user",
+      "status": "online",
+      "country": "Espanha 🇪🇸",
+      "gender": "female",
+      "bio": "¡Hola! Vamos a practicar idiomas y charlar.",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-15T23:47:05.831Z",
+      "password_hash": "user123"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_001",
+      "reporter_id": "user_003",
+      "reporter_name": "Sofia Martinez",
+      "reported_id": "user_004",
+      "reported_name": "Alex Morgan",
+      "reported_code": "#CR-648291",
+      "reason": "Comportamento inadequado durante a chamada",
+      "details": "Desconectou abruptamente após palavras ofensivas.",
+      "created_at": "2026-10-16T23:47:05.831Z",
+      "resolved": false
+    }
+  ]
+}
